@@ -21,3 +21,28 @@ function isKiss( words ){
     return "Good work Joe!"
     }
   }
+  //----------------------------------//
+
+
+  //https://www.codewars.com/kata/middle-me/train/javascript
+  
+  function middleMe(N, X, Y){
+    let str = ''
+    
+    if(N % 2 == 0 && N !== 0){
+    for(i = 0; i < N; i++){
+    
+    if(i == N/2){
+     
+      str += X
+        }
+        
+        str += Y
+      }
+       return(str)
+    }
+    return X
+}
+
+
+//----------------------------------//
